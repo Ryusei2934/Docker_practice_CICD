@@ -1,0 +1,267 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(68, 68, 68);
+}
+
+.container{
+    padding: 50px 250px;
+}
+
+.flex_header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.add form{
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+}
+
+.add form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.add form input,
+.add form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8x;
+    box-sizing: border-box;
+}
+
+.add .btns{
+    display: flex;
+}
+
+.add form .btn_1 button{
+    background-color: #0cff86;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.add form .btn_1 button:hover {
+    background-color: #FFF;
+    color: #0cff86;
+    border: 1px solid #0cff86;
+    transition: 0.25s;
+}
+
+.add form .btn_2 button{
+    margin-left: 25px;
+    background-color: rgb(255, 87, 87);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.add form .btn_2 button:hover {
+    background-color: #FFF;
+    color: rgb(255, 87, 87);
+    border: 1px solid rgb(255, 87, 87);
+    transition: 0.25s;
+}
+
+.add .field-error{
+    color: rgb(255, 73, 73);
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.index a{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: rgb(17, 104, 226);
+    border: solid 1px  beige;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.index a:hover{
+    background-color: rgb(255, 255, 255);
+    border: solid 1px  rgb(17, 104, 226);
+    color:  rgb(17, 104, 226);
+}
+
+.index ul {
+    list-style-type: none;
+}
+
+.index li{
+    background-color: #FFF;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: #00000010;
+}
+
+.task-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.task-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.task-date{
+    font-size: 14px;
+    color: #666;
+}
+
+.task-description{
+    font-size: 16px;
+}
+
+.index li.complete{
+    text-decoration: line-through;
+    color: #999;
+}
+
+.index .btns{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.index .btn_1 button{
+    padding: 5px;
+    margin-right: 20px;
+    font-size: 1.1rem;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(87, 255, 151);
+    color:  #292828;
+    border: none;
+    box-shadow:0 0 2px #6666665f ;
+    border-radius: 7px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.index .btn_1 button:hover{
+    background-color:rgba(87, 255, 151, 0.192);
+    color:  #292828;
+    box-shadow: none;
+    transition: 0.4s;
+}
+
+.index .btn_2 button{
+    padding: 5px;
+    font-size: 1.1rem;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(255, 87, 87);
+    color:  #292828;
+    border: none;
+    box-shadow:0 0 2px #6666665f ;
+    border-radius: 7px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.index .btn_2 button:hover{
+    background-color:rgba(255, 87, 87, 0.192);
+    color:  #292828;
+    box-shadow: none;
+    transition: 0.4s;
+}
+
+
+
+.update form{
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+}
+
+.update form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.update form input,
+.update form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8x;
+    box-sizing: border-box;
+}
+
+.update .btns{
+    display: flex;
+}
+
+.update form .btn_1 button{
+    background-color: #0cff86;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.update form .btn_1 button:hover {
+    background-color: #FFF;
+    color: #0cff86;
+    border: 1px solid #0cff86;
+    transition: 0.25s;
+}
+
+.update form .btn_2 button{
+    margin-left: 25px;
+    background-color: rgb(255, 87, 87);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.update form .btn_2 button:hover {
+    background-color: #FFF;
+    color: rgb(255, 87, 87);
+    border: 1px solid rgb(255, 87, 87);
+    transition: 0.25s;
+}
+
+
+.update .field-error{
+    color: rgb(255, 73, 73);
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
